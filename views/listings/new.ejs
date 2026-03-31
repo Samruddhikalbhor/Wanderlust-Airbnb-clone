@@ -1,0 +1,17 @@
+<% layout("/layouts/boilerPlate") %>
+<body>
+    <h3>Create a new Listing</h3>
+    <form method="POST" action="/listings">
+        <input name="listings[title]" placeholder="enter titlle" type="text">
+        <br><br>
+        <textarea name="listings[description]" placeholder="description" type="text"></textarea>
+        <br><br>
+        <input name="listings[image]" placeholder="enter img url" type="text">
+        <br><br>
+        <input name="listings[country]" placeholder="enter your country" type="text">
+        <br><br>
+        <input name="listings[price]" placeholder="enter the product price" type="Number">
+        <br><br>
+        <button>Add</button>
+    </form>
+</body>
