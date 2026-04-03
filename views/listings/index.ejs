@@ -1,4 +1,4 @@
-<% layout("/layouts/boilerPlate") %>
+<%- layout("/layouts/boilerPlate") %>
 <body>
     <!-- <form method="get" action="/listings/new">
         <button>create new listing</button>
@@ -22,13 +22,12 @@
         <% } %>
     </div>
 
-    <ul>
+    <!-- <ul>
     <% for(let listing of allListings){ %>
-    <li><a href="/listings/<%= listing.id %>"><%= listing.title %></a></li>
+    <li><a href="/listings/<%= listing._id %>"><%= listing.title %></a></li>
     
-    <% } %>
+    <% } %> -->
 </ul>
-
 </body>
 
 
